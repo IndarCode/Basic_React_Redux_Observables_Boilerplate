@@ -1,0 +1,52 @@
+* {
+  margin :0;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  padding: 4vw;
+    text-align: center;
+    margin: 4vw;
+    border: 1px solid #ccc;
+    height: 88vh;
+    box-sizing: border-box;
+}
+.container h1 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.container .button {
+  position: absolute;
+  background-color: #2074ff;
+  padding: 9px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  right: calc(50% - 80px);
+  top: 1vw;
+  cursor: pointer;
+}
+.loader {
+  width: 120px;
+  margin: 330px auto;
+  display: block;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

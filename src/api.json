@@ -1,0 +1,5 @@
+{
+    "fetchUsers": "https://api.instantwebtools.net/v1/passenger",
+    "createUser": "https://api.instantwebtools.net/v1/passenger",
+    "getUser": "https://api.instantwebtools.net/v1/passenger"
+}
